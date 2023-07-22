@@ -1,0 +1,43 @@
+body{
+	background-color: black;
+}
+
+h1{
+	color: darkcyan;
+	font-family: andalus;
+	text-align-last: center;
+	letter-spacing: 2px;
+}
+div{
+	text-align-last: center;
+}
+h3{
+	color: darkcyan;
+	text-align-last: center;
+	font-size: 1.5rem;
+	font-family: andalus;
+	letter-spacing: 2px;
+}
+input{
+	background-color: black;
+	border-radius: 40px;
+	margin-top: 1rem;
+	width: 35%;
+	color:white ;
+	border: solid 2px darkcyan ;
+	padding: 5px;
+}
+input:active{
+	transition: border 2s;
+	border: darkcyan;
+}
+button{
+	background-color: black;
+	border-radius: 40px;
+	margin-top: 1rem;
+	text-align-last: center;
+	width: 22%;
+	color:white ;
+	border: solid 2px darkgreen ;
+	padding: 5px;
+}

@@ -3,10 +3,11 @@ body{
 }
 
 h1{
-	color: darkcyan;
-	font-family: andalus;
-	text-align-last: center;
-	letter-spacing: 2px;
+       color: white;
+       font-style: italic;
+       text-align: center;
+       letter-spacing: 1px;
+       font-size: 25px;
 }
 div{
 	text-align-last: center;

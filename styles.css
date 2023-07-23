@@ -8,10 +8,11 @@ body{
 
 h1{
        color: white;
-       font-style: italic;
-       text-align: center;
-       letter-spacing: 1px;
-       font-size: 25px;
+    font-style: italic;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 24px;
+    text-shadow: 5px 5px 8px;
 }
 div{
 	text-align-last: center;

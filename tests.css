@@ -2,8 +2,10 @@ body{
 	background:linear-gradient(black,45%,darkcyan);
 }
 .mmm{
-    color: white;
-    text-decoration: none;
+     color: white;
+    font-style: italic;
+    text-decoration: underline red;
+    font-size: 13px;
 }
 
 h1{

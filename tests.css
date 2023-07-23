@@ -1,28 +1,67 @@
 body{
 	background:linear-gradient(black,45%,darkcyan);
 }
-.mmm{
-    color: white;
-    font-style: italic;
-    text-decoration: underline red;
-    font-size: 13px;
-}
 
 h1{
     color: white;
     font-style: italic;
     text-align: center;
     letter-spacing: 1px;
-    font-size: 24px;
-    text-shadow: 5px 5px 8px;	
+    font-size: 25px;
+    text-shadow: 5px 5px 10px;
+    
 }
+@keyframes example {
+  from {background-color: darkcyan;  }
+  to {background-color: black;  }
+}
+@keyframes examples {
+  from {color: black;  }
+  to {color: darkcyan;  }
+}
+
+
 h3{
    color: darkcyan;
    text-align-last: center;
-   font-size: 20px;
+   font-size: 1.5rem;
    font-family: andalus;
    letter-spacing: 2px;
+   
 }
+fieldset {
+  width: 11%;
+  height: 60px;
+  background: darkcyan;
+  border-radius: 30px;
+  position: relative;
+  animation-name: examplez;
+  animation-duration: 5s;  
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes examplez {
+  from {top: -1000px;}
+  to {top: 0px; background-color: black;}
+}
+#vc {
+  width: 11%;
+  height: 60px;
+  background: black;
+  border-radius: 30px;
+  margin-left: 33.5rem;
+  margin-top: -4.5rem;
+  position: relative;
+  animation-name: examplezz;
+  animation-duration: 5s;  
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes examplezz {
+  from {top: 0px;}
+  to {top: -1000px; background-color: darkcyan;}
+}
+
 div{
     border: solid 2px white;
     padding: 20px;
@@ -30,10 +69,16 @@ div{
     width: 55%;
     text-align-last: center;
     border-radius: 50px;
-    background:linear-gradient(darkcyan,25%,black);
+    background-color: darkcyan;
     text-shadow: 5px 5px 7px ;
     box-shadow: 10px 11px 7px ;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
+
+
 a{
     color:darkcyan ;
     font-size: 17px;
@@ -41,6 +86,11 @@ a{
     font-family: andalus;
     letter-spacing: 2px;
     text-decoration: none;
+    animation-name: examples;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    
 }
 .a11{
 	width: 5%;
@@ -55,9 +105,8 @@ p{
 }
 #yy{
 	color: white;
-	text-align-last: center;
-	font-size: 12px;
-	letter-spacing: 1px;
+    text-decoration: underline red;
+    font-size: 13px;
 }
 
 

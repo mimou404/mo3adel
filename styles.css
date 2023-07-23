@@ -29,6 +29,9 @@ h3{
 	margin-left: 2rem;
 	color: darkcyan;
 }
+input:active{
+	width: 45% ;
+}
 p{
 	color: white;
 	margin-left:-5rem;

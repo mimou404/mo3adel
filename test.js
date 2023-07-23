@@ -1,25 +1,37 @@
 function verif() {
-	a=document.getElementById('a').value;
-	b=ocument.getElementById('b').value;
-	c=document.getElementById('c').value;
-	d=document.getElementById('d').value;
-	e=document.getElementById('e').value;
-	f=document.getElementById('f').value;
-	g=document.getElementById('g').value;
-	h=document.getElementById('h').value;
-	i=document.getElementById('i').value;
-	j=document.getElementById('j').value;
-	zz=document.getElementById('zz').value;
-	n=document.getElementById('n').value;
-	if (a.length!=2) {
-		alert("invalide");
+	a=Number(document.getElementById('a').value);
+	b=Number(document.getElementById('b').value);
+	c=Number(document.getElementById('c').value);
+	d=Number(document.getElementById('d').value);
+	e=Number(document.getElementById('e').value);
+	f=Number(document.getElementById('f').value);
+	g=Number(document.getElementById('g').value);
+	h=Number(document.getElementById('h').value);
+	i=Number(document.getElementById('i').value);
+	j=Number(document.getElementById('j').value);
+	if (i>10) {
+		i=i-10
+		x=a*3
+	    x1=b*3
+	    x2=c*3
+	    x3=d*2
+	    x4=e+f+g+h+i+j
+	    z=x+x1+x2+x3+x4
+	    zzz=z/16
+	    ss=zzz.toFixed(2)
+
 	}
-	x=a*3
-	x1=b*3
-	x2=c*3
-	x3=d*2
-	x4=e+f+g+h+i+j
-	z=x+x1+x2+x3+x4
-	zz=z/16
-	document.write('zz');
+	else{
+		x=a*3
+	    x1=b*3
+	    x2=c*3
+	    x3=d*2
+	    x4=e+f+g+h+j
+	    z=x+x1+x2+x3+x4
+	    zzz=z/16
+	    ss=zzz.toFixed(2);
+	}
+	
+	document.getElementById('zz').value=ss;
+	
 }

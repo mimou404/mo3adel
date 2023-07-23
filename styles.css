@@ -29,8 +29,9 @@ h3{
 	margin-left: 2rem;
 	color: darkcyan;
 }
-input:active{
-	width: 45% ;
+input:hover{
+	transition: width 2s;
+	width: 45%;
 }
 p{
 	color: white;

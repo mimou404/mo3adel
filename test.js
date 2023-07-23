@@ -41,4 +41,9 @@ function verif() {
 	x10=g
 	x11=h
 	wx=x5+x6+x7+x8+x9+x10+x11
-	document.getElementById('n').value=wx;
+	document.getElementById('n').value=wx.toFixed(2);
+	wxx=wx+wx*7/100
+	document.getElementById('nn').value=wxx.toFixed(2);
+
+	
+}

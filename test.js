@@ -115,7 +115,7 @@ function verif2() {
 	    x2=f*4
 	    x3=e+f+g+h+i+j+c+d
 	    z=x+x1+x2+x3
-	    zzz=z/16
+	    zzz=z/18
 	    ss=zzz.toFixed(2);
 
 	}
@@ -125,7 +125,7 @@ function verif2() {
 	    x2=f*4
 	    x3=e+f+g+h+i+j+c+d
 	    z=x+x1+x2+x3
-	    zzz=z/16
+	    zzz=z/18
 	    ss=zzz.toFixed(2);
 	}
 	

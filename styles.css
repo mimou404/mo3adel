@@ -5,6 +5,10 @@ body{
 	width: 48%;
 	font-size: 17px;
 }
+input:hover{
+	transition: border  2s;
+	border :2px solid green;
+}
 
 h1{
        color: white;

@@ -1,6 +1,10 @@
 body{
 	background:linear-gradient(black,45%,darkcyan);
 }
+.mmm{
+    color: white;
+    text-decoration: none;
+}
 
 h1{
     color: white;

@@ -1,6 +1,10 @@
 body{
 	background-color: black;
 }
+.aaa{
+	width: 48%;
+	font-size: 17px;
+}
 
 h1{
        color: white;

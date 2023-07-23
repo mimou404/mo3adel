@@ -18,8 +18,7 @@ function verif() {
 	    x4=e+f+g+h+i+j
 	    z=x+x1+x2+x3+x4
 	    zzz=z/16
-	    ss=zzz.toFixed(2)
-
+	    ss=zzz.toFixed(2)-0.01
 	}
 	else{
 		x=a*3
@@ -29,7 +28,7 @@ function verif() {
 	    x4=e+f+g+h+j
 	    z=x+x1+x2+x3+x4
 	    zzz=z/16
-	    ss=zzz.toFixed(2);
+	    ss=zzz.toFixed(2)-0.01;
 	}
 	
 	document.getElementById('zz').value=ss;

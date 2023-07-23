@@ -54,7 +54,7 @@ input:active{
 	transition: border 2s;
 	border: darkcyan;
 }
-button{
+input[type="button"]{
 	background-color: black;
 	border-radius: 40px;
 	margin-top: 1rem;

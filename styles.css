@@ -19,6 +19,15 @@ h3{
 	font-family: andalus;
 	letter-spacing: 2px;
 }
+#pp{
+	margin-top: -2.2rem;
+	margin-left: 2rem;
+	color: darkcyan;
+}
+p{
+	color: white;
+	margin-left: -5rem;
+}
 input{
 	background-color: black;
 	border-radius: 40px;

@@ -18,7 +18,8 @@ function verif() {
 	    x4=e+f+g+h+i+j
 	    z=x+x1+x2+x3+x4
 	    zzz=z/16
-	    ss=zzz.toFixed(2)-0.01;
+	    ss=zzz.toFixed(2);
+
 	}
 	else{
 		x=a*3
@@ -28,9 +29,16 @@ function verif() {
 	    x4=e+f+g+h+j
 	    z=x+x1+x2+x3+x4
 	    zzz=z/16
-	    ss=zzz.toFixed(2)-0.01;
+	    ss=zzz.toFixed(2);
 	}
 	
 	document.getElementById('zz').value=ss;
-	
-}
+	x5=ss*4
+	x6=a*1.5
+	x7=b*1.5
+	x8=c*0.5
+	x9=d*0.5
+	x10=g
+	x11=h
+	wx=x5+x6+x7+x8+x9+x10+x11
+	document.getElementById('n').value=wx;

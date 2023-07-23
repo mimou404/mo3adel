@@ -5,28 +5,28 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title></title>
 	<link rel="stylesheet" type="text/css" href="styles.css">
-	<script type="text/javascript" src="test.js" onsubmit="verif()"></script>
+	<script type="text/javascript" src="test.js" ></script>
 </head>
 <body>
 	<h1>Calculer moyenne et score bac informatique</h1>
 	<h3>Session Principale</h3>
 	<form>
 	<div>
-	<input type="number" name="" placeholder="Mathématique" id="a" required="required"><br>
-	<input type="number" name="" placeholder="Algorithme" id="b" required="required"><br>
-	<input type="number" name="" placeholder="STI" id="c" required="required"><br>
-	<input type="number" name="" placeholder="Physique" id="d" required="required"><br>
-	<input type="number" name="" placeholder="Philo" id="e" required="required"><br>
-	<input type="number" name="" placeholder="Arabe" id="f" required="required"><br>
-	<input type="number" name="" placeholder="Francais" id="g" required="required"><br>
-	<input type="number" name="" placeholder="Anglais" id="h" required="required"><br>
+	<input type="number" name="" placeholder="Mathématique" id="a" required="required" step="any"><br>
+	<input type="number" name="" placeholder="Algorithme" id="b" step="any" max="20" min="0" required><br>
+	<input type="number" name="" placeholder="STI" id="c" required="required" step="any" max="20" min="0"><br>
+	<input type="number" name="" placeholder="Physique" id="d" required="required" step="any" max="20" min="0"><br>
+	<input type="number" name="" placeholder="Philo" id="e" required="required" step="any" max="20" min="0"><br>
+	<input type="number" name="" placeholder="Arabe" id="f" required="required" step="any" max="20" min="0"><br>
+	<input type="number" name="" placeholder="Francais" id="g" required="required" step="any" max="20" min="0"><br>
+	<input type="number" name="" placeholder="Anglais" id="h" required="required" step="any" max="20" min="0"><br>
 	<p><input type="checkbox" name=""> <p id="pp">Dispenser</p></p>
-	<input type="number" name="" placeholder="Option" id="i" required="required"><br>
-	<input type="number" name="" placeholder="Sport" id="j" required="required"><br>
-	<button id="bb" type="submit">Calculer</button><br>
-	<input type="text" name="" placeholder="Moyenne" id="zz" class="aaa"><br>
-	<input type="text" name="" placeholder="score" id="n" class="aaa"><br>
-	<input type="text" name="" placeholder="score avec 7%" id="nn" class="aaa"><br>
+	<input type="number" name="" placeholder="Option" id="i" required="required" step="any" max="20" min="0"><br>
+	<input type="number" name="" placeholder="Sport" id="j" required="required" step="any" max="20" min="0"><br>
+	<input id="bb" type="button" onclick="verif()" value="Calculer"><br>
+	<input type="text" id="zz" placeholder="moyenne" disabled=""><br>
+	<input type="text" id="n" placeholder="score" disabled=""><br>
+	<input type="text" id="nn" placeholder="score avec 7%" disabled=""><br>
 	</div>
 	</form>	
 

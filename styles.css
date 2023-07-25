@@ -2,6 +2,8 @@ body{
 	background-color: black;
 }
 
+
+
 h1{
 	color: white;
 	font-style: italic;
@@ -19,6 +21,44 @@ h3{
 	font-family: andalus;
 	letter-spacing: 2px;
 }
+input[type="checkbox"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: white;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #4CAF50;
+  border-radius: 4px;
+  outline: none;
+  transition: all 0.2s ease-in-out;
+ } 
+ input[type="checkbox"]:checked {
+  background-color: #4CAF50;
+}
+
+input[type="checkbox"]:checked::before {
+  content: "\2714";
+  display: block;
+  color: white;
+  font-size: 16px;
+  line-height: 7px;
+  text-align: center;
+}
+
+input[type="checkbox"]:hover {
+  border-color: #3e8e41;
+}
+
+input[type="checkbox"]:focus {
+  border-color: #3e8e41;
+  box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+}
+
+label[for="dispenserCheckbox"] {
+  display: inline-block;
+  vertical-align: middle;
+}
+
 input{
 	background-color: black;
 	border-radius: 40px;
@@ -34,13 +74,14 @@ input:active{
 	border: darkcyan;
 }
 #pp{
-	margin-top: -2.2rem;
+	margin-top: -2.6rem;
 	margin-left: 2rem;
 	color: darkcyan;
 }
 p{
 	color: white;
 	margin-left:-5rem;
+	margin-top: 1rem;
 }
 input[type="button"]{
 	background-color: black;

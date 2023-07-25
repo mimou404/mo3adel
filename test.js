@@ -227,11 +227,11 @@ function verif4() {
 	
 	document.getElementById('zz').value=ss;
 	x6=ss*4
-	x7=f*1.5
-	x8=d*1.5
-	x9=b
+	x7=b*1.5
+	x8=a*1.5
+	x9=g
 	x10=c
-	x11=g
+	x11=i
 	wx=x6+x7+x8+x9+x10+x11
 	document.getElementById('n').value=wx.toFixed(2);
 	wxx=wx+wx*7/100

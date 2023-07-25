@@ -238,6 +238,49 @@ function verif4() {
 	document.getElementById('nn').value=wxx.toFixed(2);
 
 }	
+function verif5() {
+	a=Number(document.getElementById('a').value);
+	b=Number(document.getElementById('b').value);
+	c=Number(document.getElementById('c').value);
+	d=Number(document.getElementById('d').value);
+	e=Number(document.getElementById('e').value);
+	f=Number(document.getElementById('f').value);
+	g=Number(document.getElementById('g').value);
+	h=Number(document.getElementById('h').value);
+	i=Number(document.getElementById('i').value);
+	j=Number(document.getElementById('j').value);
+	if (i>10) {
+		i=i-10
+		x=a*4
+	    x1=f*4
+	    x2=b+c+d+e+g+h+i+j
+	    z=x+x1+x2
+	    zzz=z/15
+	    ss=zzz.toFixed(2);
+
+	}
+	else{
+		x=a*4
+	    x1=f*4
+	    x2=b+c+d+e+g+h+j
+	    z=x+x1+x2
+	    zzz=z/15
+	    ss=zzz.toFixed(2);
+	}
+	
+	document.getElementById('zz').value=ss;
+	x6=ss*4
+	x7=a*2
+	x8=f*1.5
+	x9=b*0.5
+	x10=c
+	x11=h
+	wx=x6+x7+x8+x9+x10+x11
+	document.getElementById('n').value=wx.toFixed(2);
+	wxx=wx+wx*7/100
+	document.getElementById('nn').value=wxx.toFixed(2);
+
+}	
 
 
 

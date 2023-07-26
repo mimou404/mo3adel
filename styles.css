@@ -1,9 +1,6 @@
 body{
 	background-color: black;
 }
-
-
-
 h1{
 	color: white;
 	font-style: italic;
@@ -31,7 +28,7 @@ input[type="checkbox"] {
   border-radius: 4px;
   outline: none;
   transition: all 0.2s ease-in-out;
- } 
+} 
  input[type="checkbox"]:checked {
   background-color: #4CAF50;
 }
@@ -48,18 +45,25 @@ input[type="checkbox"]:checked::before {
 input[type="checkbox"]:hover {
   border-color: #3e8e41;
 }
-
 input[type="checkbox"]:focus {
   border-color: #3e8e41;
   box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
 }
-
-label[for="dispenserCheckbox"] {
-  display: inline-block;
-  vertical-align: middle;
+input[type="number"]:focus{
+	border: solid 2px darkcyan ;
 }
 
-input{
+input[type="number"]{
+	background-color: black;
+	border-radius: 40px;
+	margin-top: 1rem;
+	width: 65%;
+	color:white ;
+	border: solid 2px darkcyan ;
+	padding: 5px;
+	font-size: 17px;
+}
+input[type="text"]{
 	background-color: black;
 	border-radius: 40px;
 	margin-top: 1rem;
@@ -91,4 +95,99 @@ input[type="button"]{
 	color:white ;
 	border: solid 2px darkgreen ;
 	padding: 5px;
+}
+input[type="number"]:focus{
+  border-color: #00bafa;
+}
+input[type="number"]:focus + input[placeholder]:before{
+  color: #0091da;
+}
+input[type="number"]:focus + label[placeholder]:before,
+input[type="number"]:valid + label[placeholder]:before{
+  transition-duration: .2s;
+  transform: translate(0, -1.6em) scale(0.9, 0.9);	
+	font-weight: bold;
+}
+input[type="number"]:valid{
+	border-color: green;
+}
+input[type="number"]:valid + input[placeholder]:before{
+	color: green;
+}
+input[type="number"]:invalid + input[placeholder][alt]:before{
+  content: attr(alt);
+}
+input[type="number"] + input[placeholder]{
+  display: block;	
+  pointer-events: none;
+  line-height: 2em;
+  padding: 0 4px;
+  margin-top: calc(-3.5em - 2px);
+  margin-bottom: calc((3.5em - 1em) + 2px);
+}
+input[type="number"] + input[placeholder]:before{
+  content: attr(placeholder);
+  display: inline-block;
+  margin: 0 calc(0.5em + 2px);
+  padding: 0 5px;
+  color: #7d7d7d;
+  white-space: nowrap;
+  transition: 0.3s ease-in-out;
+  background-color: #040507;
+  background-size: 100% 44px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.box{
+  padding: 10px;
+  text-align: center;
+}
+.box input[type="number"]{
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #3498db;
+  padding: 14px 10px;
+  width: 350px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+.box input[type="number"]:focus{
+  width: 220px;
+  border-color: #2ecc71;
+}
+.box input[type="submit"],
+.box input[type="text"]{
+  border: 0;
+  background: none;
+  display: block;
+  width: 200px;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #2ecc71;
+  padding: 14px 40px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+.box input[type="submit"]:hover{
+  background: #2ecc71;
+  width: 300px;
+}
+.text {
+  text-align: center;
+  letter-spacing: 2px;
+  color: white;
+  font-size: 18px;
+}
+.ou {
+  text-align: center;
+  color: red;
+  font-size: 15px;
 }

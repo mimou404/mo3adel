@@ -148,7 +148,7 @@ input[type="number"] + input[placeholder]:before{
   display: block;
   margin: 20px auto;
   text-align: center;
-  border: 2px solid #3498db;
+  border: 2px solid #3400db;
   padding: 14px 10px;
   width: 150px;
   outline: none;

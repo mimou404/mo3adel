@@ -57,14 +57,26 @@ input[type="number"]{
 	background-color: black;
 	border-radius: 40px;
 	margin-top: 1rem;
-	width: 65%;
+	width: 55%;
 	color:white ;
 	border: solid 2px darkcyan ;
 	padding: 5px;
 	font-size: 17px;
 }
-
-
+input[type="text"]{
+	background-color: black;
+	border-radius: 40px;
+	margin-top: 1rem;
+	width: 55%;
+	color:white ;
+	border: solid 2px darkcyan ;
+	padding: 5px;
+	font-size: 17px;
+}
+input:active{
+	transition: border 2s;
+	border: darkcyan;
+}
 #pp{
 	margin-top: -2.6rem;
 	margin-left: 2rem;
@@ -102,7 +114,7 @@ input[type="number"]:valid{
 input[type="number"]:valid + input[placeholder]:before{
 	color: green;
 }
-input[placeholder][alt]:before{
+input[type="number"]:invalid + input[placeholder][alt]:before{
   content: attr(alt);
 }
 input[type="number"] + input[placeholder]{
@@ -113,7 +125,7 @@ input[type="number"] + input[placeholder]{
   margin-top: calc(-3.5em - 2px);
   margin-bottom: calc((3.5em - 1em) + 2px);
 }
-input[placeholder]:before{
+input[type="number"] + input[placeholder]:before{
   content: attr(placeholder);
   display: inline-block;
   margin: 0 calc(0.5em + 2px);
@@ -122,7 +134,7 @@ input[placeholder]:before{
   white-space: nowrap;
   transition: 0.3s ease-in-out;
   background-color: #040507;
-  background-size: 100% 44px;
+  background-size: 100% 5px;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -136,26 +148,27 @@ input[placeholder]:before{
   display: block;
   margin: 20px auto;
   text-align: center;
-  border: 2px solid #2ecc71;
+  border: 2px solid #3498db;
   padding: 14px 10px;
-  width: 600px;
+  width: 150px;
   outline: none;
   color: white;
   border-radius: 24px;
   transition: 0.25s;
-} 
-.box input[type="number"]:focus{
-  width: 700px;
-  border-color: #3400db;
 }
+.box input[type="number"]:focus{
+  width: 220px;
+  border-color: #2ecc71;
+}
+.box input[type="submit"],
 .box input[type="text"]{
   border: 0;
   background: none;
   display: block;
-  width: 450px;
+  width: 200px;
   margin: 20px auto;
   text-align: center;
-  border: 2px solid #3400db;
+  border: 2px solid #2ecc71;
   padding: 14px 40px;
   outline: none;
   color: white;
@@ -167,13 +180,14 @@ input[placeholder]:before{
   background: #2ecc71;
   width: 300px;
 }
-input[type="text"]{
-	background-color: black;
-	border-radius: 40px;
-	margin-top: 1rem;
-	width: 600px
-	color:white ;
-	border: solid 2px darkcyan ;
-	padding: 5px;
-	font-size: 17px;
+.text {
+  text-align: center;
+  letter-spacing: 2px;
+  color: white;
+  font-size: 18px;
+}
+.ou {
+  text-align: center;
+  color: red;
+  font-size: 15px;
 }

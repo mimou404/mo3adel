@@ -12,7 +12,7 @@ div{
 	text-align-last: center;
 }
 h3{
-	color: darkcyan;
+	color: #2ecc71;;
 	text-align-last: center;
 	font-size: 1.5rem;
 	font-family: andalus;
@@ -80,7 +80,7 @@ input:active{
 #pp{
 	margin-top: -2.6rem;
 	margin-left: 2rem;
-	color: darkcyan;
+	color: #2ecc71;;
 }
 p{
 	color: white;

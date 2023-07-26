@@ -39,11 +39,11 @@ input[type="checkbox"]:checked::before {
   text-align: center;
 }
 
-input[type="checkbox"]:hover {
-  border-color: #3e8e41;
+input[type="checkbox"]:focus {
+  border-color: #3400db;
 }
 input[type="checkbox"]:focus {
-  border-color: #3e8e41;
+  border-color: #3400db;
   box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
 }
 input[type="number"]:focus{

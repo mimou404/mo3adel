@@ -76,7 +76,7 @@ p{
 }
 #yy{
 	color: white;
-    text-decoration: underline red;
+    text-decoration: double underline red;
     font-size: 13px;
 }
 

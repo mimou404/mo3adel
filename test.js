@@ -43,9 +43,9 @@ function verif() {
 	x10=fran
 	x11=ang
 	wx=x5+x6+x7+x8+x9+x10+x11
-	document.getElementById('n').value=wx.toFixed(4);
+	document.getElementById('n').value=wx.toFixed(3);
 	wxx=wx+wx*7/100
-	document.getElementById('nn').value=wxx.toFixed(4);
+	document.getElementById('nn').value=wxx.toFixed(3);
 	}
 	else{
 		if (opt>10) {
@@ -80,9 +80,9 @@ function verif() {
 	x10=fran
 	x11=ang
 	wx=x5+x6+x7+x8+x9+x10+x11
-	document.getElementById('n').value=wx.toFixed(4);
+	document.getElementById('n').value=wx.toFixed(3);
 	wxx=wx+wx*7/100
-	document.getElementById('nn').value=wxx.toFixed(4);
+	document.getElementById('nn').value=wxx.toFixed(3);
 
 	
 }
@@ -131,9 +131,9 @@ function verif1() {
 	x10=fran
 	x11=ang
 	wxe=x5+x6+x7+x8+x9+x10+x11
-	document.getElementById('nn').value=wxe.toFixed(4);
+	document.getElementById('nn').value=wxe.toFixed(3);
 	wxxee=wxe+wxe*7/100
-	document.getElementById('nnn').value=wxxee.toFixed(4);
+	document.getElementById('nnn').value=wxxee.toFixed(3);
     }
     else{
     	if (opt>10) {
@@ -168,9 +168,9 @@ function verif1() {
 	x10=fran
 	x11=ang
 	wxe=x5+x6+x7+x8+x9+x10+x11
-	document.getElementById('nn').value=wxe.toFixed(4);
+	document.getElementById('nn').value=wxe.toFixed(3);
 	wxxee=wxe+wxe*7/100
-	document.getElementById('nnn').value=wxxee.toFixed(4);
+	document.getElementById('nnn').value=wxxee.toFixed(3);
 
 }
 function verif2() {
@@ -214,9 +214,9 @@ function verif2() {
 	x9=fran
 	x10=ang
 	wx=x5+x6+x7+x8+x9+x10
-	document.getElementById('n').value=wx.toFixed(4);
+	document.getElementById('n').value=wx.toFixed(3);
 	wxx=wx+wx*7/100
-	document.getElementById('nn').value=wxx.toFixed(4);
+	document.getElementById('nn').value=wxx.toFixed(3);
     }
     else{
     	if (opt>10) {
@@ -248,9 +248,9 @@ function verif2() {
 	x9=fran
 	x10=ang
 	wx=x5+x6+x7+x8+x9+x10
-	document.getElementById('n').value=wx.toFixed(4);
+	document.getElementById('n').value=wx.toFixed(3);
 	wxx=wx+wx*7/100
-	document.getElementById('nn').value=wxx.toFixed(4);
+	document.getElementById('nn').value=wxx.toFixed(3);
     
 	
 }
@@ -298,9 +298,9 @@ function verif3() {
 	x10=fran
 	x11=ang
 	wx=x6+x7+x8+x9+x10+x11
-	document.getElementById('n').value=wx.toFixed(4);
+	document.getElementById('n').value=wx.toFixed(3);
 	wxx=wx+wx*7/100
-	document.getElementById('nn').value=wxx.toFixed(4);
+	document.getElementById('nn').value=wxx.toFixed(3);
     }
     else{
     	if (opt>10) {
@@ -336,9 +336,9 @@ function verif3() {
 	x10=fran
 	x11=ang
 	wx=x6+x7+x8+x9+x10+x11
-	document.getElementById('n').value=wx.toFixed(4);
+	document.getElementById('n').value=wx.toFixed(3);
 	wxx=wx+wx*7/100
-	document.getElementById('nn').value=wxx.toFixed(4);
+	document.getElementById('nn').value=wxx.toFixed(3);
 
 }	
 function verif4() {
@@ -383,9 +383,9 @@ function verif4() {
 	x10=fran
 	x11=ang
 	wx=x6+x7+x8+x9+x10+x11
-	document.getElementById('n').value=wx.toFixed(4);
+	document.getElementById('n').value=wx.toFixed(3);
 	wxx=wx+wx*7/100
-	document.getElementById('nn').value=wxx.toFixed(4);
+	document.getElementById('nn').value=wxx.toFixed(3);
     }
     else{
     	if (opt>10) {
@@ -417,9 +417,9 @@ function verif4() {
 	x10=fran
 	x11=ang
 	wx=x6+x7+x8+x9+x10+x11
-	document.getElementById('n').value=wx.toFixed(4);
+	document.getElementById('n').value=wx.toFixed(3);
 	wxx=wx+wx*7/100
-	document.getElementById('nn').value=wxx.toFixed(4);
+	document.getElementById('nn').value=wxx.toFixed(3);
 }	
 function verif5() {
 	math=Number(document.getElementById('math').value);
@@ -460,9 +460,9 @@ function verif5() {
 	x10=fran
 	x11=ang
 	wx=x6+x7+x8+x9+x10+x11
-	document.getElementById('n').value=wx.toFixed(4);
+	document.getElementById('n').value=wx.toFixed(3);
 	wxx=wx+wx*7/100
-	document.getElementById('nn').value=wxx.toFixed(4);
+	document.getElementById('nn').value=wxx.toFixed(3);
     }
     else{
     	if (opt>10) {
@@ -492,8 +492,8 @@ function verif5() {
 	x10=fran
 	x11=ang
 	wx=x6+x7+x8+x9+x10+x11
-	document.getElementById('n').value=wx.toFixed(4);
+	document.getElementById('n').value=wx.toFixed(3);
 	wxx=wx+wx*7/100
-	document.getElementById('nn').value=wxx.toFixed(4);
+	document.getElementById('nn').value=wxx.toFixed(3);
 
 }	

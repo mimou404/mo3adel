@@ -1,7 +1,10 @@
 body{
 	background:linear-gradient(black,45%,darkcyan);
 }
-
+img{
+    border-radius: 50px;
+    margin-left: 39rem;
+}
 h1{
     color: white;
     font-style: italic;

@@ -1,293 +1,499 @@
 function verif() {
-	a=Number(document.getElementById('a').value);
-	b=Number(document.getElementById('b').value);
-	c=Number(document.getElementById('c').value);
-	d=Number(document.getElementById('d').value);
-	e=Number(document.getElementById('e').value);
-	f=Number(document.getElementById('f').value);
-	g=Number(document.getElementById('g').value);
-	h=Number(document.getElementById('h').value);
-	i=Number(document.getElementById('i').value);
-	j=Number(document.getElementById('j').value);
-	if (i>10) {
-		i=i-10
-		x=a*3
-	    x1=b*3
-	    x2=c*3
-	    x3=d*2
-	    x4=e+f+g+h+i+j
+	math=Number(document.getElementById('math').value);
+	algo=Number(document.getElementById('algo').value);
+	sti=Number(document.getElementById('sti').value);
+	phy=Number(document.getElementById('phy').value);
+	phil=Number(document.getElementById('phil').value);
+	arab=Number(document.getElementById('arab').value);
+	fran=Number(document.getElementById('fran').value);
+	ang=Number(document.getElementById('ang').value);
+	opt=Number(document.getElementById('opt').value);
+	sport=Number(document.getElementById('sport').value);
+	
+	if (document.getElementById('mycheck').checked==true) {
+		if (opt>10) {
+		opt=opt-10
+		x=math*3
+	    x1=algo*3
+	    x2=sti*3
+	    x3=phy*2
+	    x4=phil+arab+fran+ang+opt
+	    z=x+x1+x2+x3+x4
+	    zzz=z/15
+	    ss=zzz.toFixed(2);
+
+
+	}
+	else{
+		x=math*3
+	    x1=algo*3
+	    x2=sti*3
+	    x3=phy*2
+	    x4=phil+arab+fran+ang
+	    z=x+x1+x2+x3+x4
+	    zzz=z/15
+	    ss=zzz.toFixed(2);
+	}
+	document.getElementById('zz').value=ss;
+	x5=ss*4
+	x6=math*1.5
+	x7=algo*1.5
+	x8=sti*0.5
+	x9=phy*0.5
+	x10=fran
+	x11=ang
+	wx=x5+x6+x7+x8+x9+x10+x11
+	document.getElementById('n').value=wx.toFixed(4);
+	wxx=wx+wx*7/100
+	document.getElementById('nn').value=wxx.toFixed(4);
+	}
+	else{
+		if (opt>10) {
+		opt=opt-10
+		x=math*3
+	    x1=algo*3
+	    x2=sti*3
+	    x3=phy*2
+	    x4=phil+arab+fran+ang+opt+sport
 	    z=x+x1+x2+x3+x4
 	    zzz=z/16
 	    ss=zzz.toFixed(2);
 
 	}
 	else{
-		x=a*3
-	    x1=b*3
-	    x2=c*3
-	    x3=d*2
-	    x4=e+f+g+h+j
+		x=math*3
+	    x1=algo*3
+	    x2=sti*3
+	    x3=phy*2
+	    x4=phil+arab+fran+ang+sport
 	    z=x+x1+x2+x3+x4
 	    zzz=z/16
 	    ss=zzz.toFixed(2);
 	}
-	
+	}
 	document.getElementById('zz').value=ss;
 	x5=ss*4
-	x6=a*1.5
-	x7=b*1.5
-	x8=c*0.5
-	x9=d*0.5
-	x10=g
-	x11=h
+	x6=math*1.5
+	x7=algo*1.5
+	x8=sti*0.5
+	x9=phy*0.5
+	x10=fran
+	x11=ang
 	wx=x5+x6+x7+x8+x9+x10+x11
-	document.getElementById('n').value=wx.toFixed(2);
+	document.getElementById('n').value=wx.toFixed(4);
 	wxx=wx+wx*7/100
-	document.getElementById('nn').value=wxx.toFixed(2);
+	document.getElementById('nn').value=wxx.toFixed(4);
 
 	
 }
+
 function verif1() {
-	aa=Number(document.getElementById('aa').value);
-	bb=Number(document.getElementById('bb').value);
-	cc=Number(document.getElementById('cc').value);
-	dd=Number(document.getElementById('dd').value);
-	ee=Number(document.getElementById('ee').value);
-	ff=Number(document.getElementById('ff').value);
-	gg=Number(document.getElementById('gg').value);
-	hh=Number(document.getElementById('hh').value);
-	ii=Number(document.getElementById('ii').value);
-	jj=Number(document.getElementById('jj').value);
-	kk=Number(document.getElementById('kk').value);
-	if (jj>10) {
-		jj=jj-10
-		x=aa*2
-	    x1=bb*3
-	    x2=gg*3
-	    x3=hh*2
-	    x4=cc+dd+ee+ff+ii+jj+kk
-	    z=x+x1+x2+x3+x4
-	    zzz=z/16
-	    ss=zzz.toFixed(2);
+	math=Number(document.getElementById('math').value);
+	gest=Number(document.getElementById('gest').value);
+	fran=Number(document.getElementById('fran').value);
+	phil=Number(document.getElementById('phil').value);
+	info=Number(document.getElementById('info').value);
+	arab=Number(document.getElementById('arab').value);
+	eco=Number(document.getElementById('eco').value);
+	hgeo=Number(document.getElementById('hgeo').value);
+	ang=Number(document.getElementById('ang').value);
+	opt=Number(document.getElementById('opt').value);
+	sport=Number(document.getElementById('sport').value);
+	if (document.getElementById('mycheck').checked==true) {
+	    if (opt>10) {
+		    opt=opt-10
+		    x=math*2
+	        x1=gest*3
+	        x2=eco*3
+	        x3=hgeo*2
+	        x4=fran+phil+info+arab+ang+opt
+	        z=x+x1+x2+x3+x4
+	        zzz=z/15
+	        ss=zzz.toFixed(2);
 
 	}
-	else{
-		x=aa*2
-	    x1=bb*3
-	    x2=gg*3
-	    x3=hh*2
-	    x4=cc+dd+ee+ff+ii+jj+kk
-	    z=x+x1+x2+x3+x4
-	    cv=z/16
-	    ss=cv.toFixed(2);
+	    else{
+		    x=math*2
+	        x1=gest*3
+	        x2=eco*3
+	        x3=hgeo*2
+	        x4=fran+phil+info+arab+ang
+	        z=x+x1+x2+x3+x4
+	        zzz=z/15
+	        ss=zzz.toFixed(2);
 	}
-	
 	document.getElementById('zzz').value=ss;
 	x5=ss*4
-	x6=aa*1.5
-	x7=bb*1.5
-	x8=gg*0.5
-	x9=hh*0.5
-	x10=cc
-	x11=ii
+	x6=eco*1.5
+	x7=gest*1.5
+	x8=math*0.5
+	x9=hgeo*0.5
+	x10=fran
+	x11=ang
 	wxe=x5+x6+x7+x8+x9+x10+x11
-	document.getElementById('nn').value=wxe.toFixed(2);
+	document.getElementById('nn').value=wxe.toFixed(4);
 	wxxee=wxe+wxe*7/100
-	document.getElementById('nnn').value=wxxee.toFixed(2);
+	document.getElementById('nnn').value=wxxee.toFixed(4);
+    }
+    else{
+    	if (opt>10) {
+		    opt=opt-10
+		    x=math*2
+	        x1=gest*3
+	        x2=eco*3
+	        x3=hgeo*2
+	        x4=fran+phil+info+arab+ang+opt+sport
+	        z=x+x1+x2+x3+x4
+	        zzz=z/16
+	        ss=zzz.toFixed(2);
 
-	
+	    }
+	    else{
+		    x=math*2
+	        x1=gest*3
+	        x2=eco*3
+	        x3=hgeo*2
+	        x4=fran+phil+info+arab+ang+sport
+	        z=x+x1+x2+x3+x4
+	        zzz=z/16
+	        ss=zzz.toFixed(2);
+	    }
+    }
+    document.getElementById('zzz').value=ss;
+	x5=ss*4
+	x6=eco*1.5
+	x7=gest*1.5
+	x8=math*0.5
+	x9=hgeo*0.5
+	x10=fran
+	x11=ang
+	wxe=x5+x6+x7+x8+x9+x10+x11
+	document.getElementById('nn').value=wxe.toFixed(4);
+	wxxee=wxe+wxe*7/100
+	document.getElementById('nnn').value=wxxee.toFixed(4);
+
 }
 function verif2() {
-	a=Number(document.getElementById('a').value);
-	b=Number(document.getElementById('b').value);
-	c=Number(document.getElementById('c').value);
-	d=Number(document.getElementById('d').value);
-	e=Number(document.getElementById('e').value);
-	f=Number(document.getElementById('f').value);
-	g=Number(document.getElementById('g').value);
-	h=Number(document.getElementById('h').value);
-	i=Number(document.getElementById('i').value);
-	j=Number(document.getElementById('j').value);
-	if (i>10) {
-		i=i-10
-		x=a*3
-	    x1=b*4
-	    x2=f*4
-	    x3=e+g+h+i+j+c+d
-	    z=x+x1+x2+x3
-	    zzz=z/17
-	    ss=zzz.toFixed(2);
+	math=Number(document.getElementById('math').value);
+	svt=Number(document.getElementById('svt').value);
+	fran=Number(document.getElementById('fran').value);
+	phil=Number(document.getElementById('phil').value);
+	info=Number(document.getElementById('info').value);
+	phy=Number(document.getElementById('phy').value);
+	arab=Number(document.getElementById('arab').value);
+	ang=Number(document.getElementById('ang').value);
+	opt=Number(document.getElementById('opt').value);
+	sport=Number(document.getElementById('sport').value);
+	if (document.getElementById('mycheck').checked==true) {
+	    if (opt>10) {
+		    opt=opt-10
+		    x=math*3
+	        x1=svt*4
+	        x2=phy*4
+	        x3=info+arab+ang+opt+fran+phil
+	        z=x+x1+x2+x3
+	        zzz=z/16
+	        ss=zzz.toFixed(2);
 
-	}
-	else{
-		x=a*3
-	    x1=b*4
-	    x2=f*4
-	    x3=e+f+g+h+i+j+c+d
-	    z=x+x1+x2+x3
-	    zzz=z/16
-	    ss=zzz.toFixed(2);
-	}
+	    }
+	    else{
+		    x=math*3
+	        x1=svt*4
+	        x2=phy*4
+	        x3=info+arab+ang+fran+phil
+	        z=x+x1+x2+x3
+	        zzz=z/16
+	        ss=zzz.toFixed(2);
+	    }
 	
 	document.getElementById('zz').value=ss;
 	x5=ss*4
-	x6=a
-	x7=f*1.5
-	x8=b*1.5
-	x9=d*0.5
-	x10=c
-	x11=h
-	wx=x5+x6+x7+x8+x9+x10+x11
-	document.getElementById('n').value=wx.toFixed(2);
+	x6=math
+	x7=phy*1.5
+	x8=svt*1.5
+	x9=fran
+	x10=ang
+	wx=x5+x6+x7+x8+x9+x10
+	document.getElementById('n').value=wx.toFixed(4);
 	wxx=wx+wx*7/100
-	document.getElementById('nn').value=wxx.toFixed(2);
+	document.getElementById('nn').value=wxx.toFixed(4);
+    }
+    else{
+    	if (opt>10) {
+		    opt=opt-10
+		    x=math*3
+	        x1=svt*4
+	        x2=phy*4
+	        x3=info+arab+ang+opt+sport+fran+phil
+	        z=x+x1+x2+x3
+	        zzz=z/17
+	        ss=zzz.toFixed(2);
 
+	    }
+	    else{
+		    x=math*3
+	        x1=svt*4
+	        x2=phy*4
+	        x3=info+arab+ang+sport+fran+phil
+	        z=x+x1+x2+x3
+	        zzz=z/17
+	        ss=zzz.toFixed(2);
+	    }
+    }
+    document.getElementById('zz').value=ss;
+	x5=ss*4
+	x6=math
+	x7=phy*1.5
+	x8=svt*1.5
+	x9=fran
+	x10=ang
+	wx=x5+x6+x7+x8+x9+x10
+	document.getElementById('n').value=wx.toFixed(4);
+	wxx=wx+wx*7/100
+	document.getElementById('nn').value=wxx.toFixed(4);
+    
 	
 }
 function verif3() {
-	a=Number(document.getElementById('a').value);
-	b=Number(document.getElementById('b').value);
-	c=Number(document.getElementById('c').value);
-	d=Number(document.getElementById('d').value);
-	e=Number(document.getElementById('e').value);
-	f=Number(document.getElementById('f').value);
-	g=Number(document.getElementById('g').value);
-	h=Number(document.getElementById('h').value);
-	i=Number(document.getElementById('i').value);
-	if (i>10) {
-		i=i-10
-		x=f*4
-	    x1=d*4
-	    x2=c*2
-	    x3=g*2
-	    x4=b*3
-	    x5=a+e+h+i
-	    z=x+x1+x2+x3+x4+x5
-	    zzz=z/18
-	    ss=zzz.toFixed(2);
+	isla=Number(document.getElementById('isla').value);
+	hgeo=Number(document.getElementById('hgeo').value);
+	fran=Number(document.getElementById('fran').value);
+	phil=Number(document.getElementById('phil').value);
+	info=Number(document.getElementById('info').value);
+	arab=Number(document.getElementById('arab').value);
+	ang=Number(document.getElementById('ang').value);
+	opt=Number(document.getElementById('opt').value);
+	sport=Number(document.getElementById('sport').value);
+	if (document.getElementById('mycheck').checked==true) {
+	    if (opt>10) {
+		    opt=opt-10
+		    x=arab*4
+	        x1=phil*4
+	        x2=fran*2
+	        x3=ang*2
+	        x4=hgeo*3
+	        x5=isla+info+opt
+	        z=x+x1+x2+x3+x4+x5
+	        zzz=z/17
+	        ss=zzz.toFixed(2);
 
-	}
-	else{
-		x=f*4
-	    x1=d*4
-	    x2=c*2
-	    x3=g*2
-	    x4=b*3
-	    x5=a+e+h
-	    z=x+x1+x2+x3+x4+x5
-	    zzz=z/18
-	    ss=zzz.toFixed(2);
-	}
+	    }
+	    else{
+		    x=arab*4
+	        x1=phil*4
+	        x2=fran*2
+	        x3=ang*2
+	        x4=hgeo*3
+	        x5=isla+info+opt
+	        z=x+x1+x2+x3+x4+x5
+	        zzz=z/17
+	        ss=zzz.toFixed(2);
+	    }
 	
 	document.getElementById('zz').value=ss;
 	x6=ss*4
-	x7=f*1.5
-	x8=d*1.5
-	x9=b
-	x10=c
-	x11=g
+	x7=arab*1.5
+	x8=phil*1.5
+	x9=hgeo
+	x10=fran
+	x11=ang
 	wx=x6+x7+x8+x9+x10+x11
-	document.getElementById('n').value=wx.toFixed(2);
+	document.getElementById('n').value=wx.toFixed(4);
 	wxx=wx+wx*7/100
-	document.getElementById('nn').value=wxx.toFixed(2);
+	document.getElementById('nn').value=wxx.toFixed(4);
+    }
+    else{
+    	if (opt>10) {
+		    opt=opt-10
+		    x=arab*4
+	        x1=phil*4
+	        x2=fran*2
+	        x3=ang*2
+	        x4=hgeo*3
+	        x5=isla+info+opt+sport
+	        z=x+x1+x2+x3+x4+x5
+	        zzz=z/18
+	        ss=zzz.toFixed(2);
+
+	    }
+	    else{
+		    x=arab*4
+	        x1=phil*4
+	        x2=fran*2
+	        x3=ang*2
+	        x4=hgeo*3
+	        x5=isla+info+opt+sport
+	        z=x+x1+x2+x3+x4+x5
+	        zzz=z/18
+	        ss=zzz.toFixed(2);
+	    }
+    }
+    document.getElementById('zz').value=ss;
+	x6=ss*4
+	x7=arab*1.5
+	x8=phil*1.5
+	x9=hgeo
+	x10=fran
+	x11=ang
+	wx=x6+x7+x8+x9+x10+x11
+	document.getElementById('n').value=wx.toFixed(4);
+	wxx=wx+wx*7/100
+	document.getElementById('nn').value=wxx.toFixed(4);
 
 }	
 function verif4() {
-	a=Number(document.getElementById('a').value);
-	b=Number(document.getElementById('b').value);
-	c=Number(document.getElementById('c').value);
-	d=Number(document.getElementById('d').value);
-	e=Number(document.getElementById('e').value);
-	f=Number(document.getElementById('f').value);
-	g=Number(document.getElementById('g').value);
-	h=Number(document.getElementById('h').value);
-	i=Number(document.getElementById('i').value);
-	j=Number(document.getElementById('j').value);
-	k=Number(document.getElementById('k').value);
-	if (j>10) {
-		j=j-10
-		x=a*3
-	    x1=b*3
-	    x2=g*3
-	    x3=c+d+e+f+h+i+j+k
-	    z=x+x1+x2+x3
-	    zzz=z/16
-	    ss=zzz.toFixed(2);
+	math=Number(document.getElementById('math').value);
+	tech=Number(document.getElementById('tech').value);
+	fran=Number(document.getElementById('fran').value);
+	phil=Number(document.getElementById('phil').value);
+	info=Number(document.getElementById('info').value);
+	arab=Number(document.getElementById('arab').value);
+	phy=Number(document.getElementById('phy').value);
+	techTp=Number(document.getElementById('techTp').value);
+	ang=Number(document.getElementById('ang').value);
+	opt=Number(document.getElementById('opt').value);
+	sport=Number(document.getElementById('sport').value);
+	if (document.getElementById('mycheck').checked==true) {
+	    if (opt>10) {
+		    opt=opt-10
+		    x=math*3
+	        x1=tech*3
+	        x2=phy*3
+	        x3=fran+phil+info+arab+techTp+ang+opt
+	        z=x+x1+x2+x3
+	        zzz=z/15
+	        ss=zzz.toFixed(2);
 
-	}
-	else{
-		x=a*3
-	    x1=b*4
-	    x2=g*4
-	    x3=c+d+e+f+h+i+k
-	    z=x+x1+x2+x3
-	    zzz=z/16
-	    ss=zzz.toFixed(2);
-	}
+	    }
+	    else{
+		    x=math*3
+	        x1=tech*3
+	        x2=phy*3
+	        x3=fran+phil+info+arab+techTp+ang+opt
+	        z=x+x1+x2+x3
+	        zzz=z/15
+	        ss=zzz.toFixed(2);
+	    }
 	
 	document.getElementById('zz').value=ss;
 	x6=ss*4
-	x7=b*1.5
-	x8=a*1.5
-	x9=g
-	x10=c
-	x11=i
+	x7=math*1.5
+	x8=tech*1.5
+	x9=phy
+	x10=fran
+	x11=ang
 	wx=x6+x7+x8+x9+x10+x11
-	document.getElementById('n').value=wx.toFixed(2);
+	document.getElementById('n').value=wx.toFixed(4);
 	wxx=wx+wx*7/100
-	document.getElementById('nn').value=wxx.toFixed(2);
+	document.getElementById('nn').value=wxx.toFixed(4);
+    }
+    else{
+    	if (opt>10) {
+		    opt=opt-10
+		    x=math*3
+	        x1=tech*3
+	        x2=phy*3
+	        x3=fran+phil+info+arab+techTp+ang+opt+sport
+	        z=x+x1+x2+x3
+	        zzz=z/16
+	        ss=zzz.toFixed(2);
 
+	    }
+	    else{
+		    x=math*3
+	        x1=tech*3
+	        x2=phy*3
+	        x3=fran+phil+info+arab+techTp+ang+opt+sport
+	        z=x+x1+x2+x3
+	        zzz=z/16
+	        ss=zzz.toFixed(2);
+	    }
+    }
+    document.getElementById('zz').value=ss;
+	x6=ss*4
+	x7=math*1.5
+	x8=tech*1.5
+	x9=phy
+	x10=fran
+	x11=ang
+	wx=x6+x7+x8+x9+x10+x11
+	document.getElementById('n').value=wx.toFixed(4);
+	wxx=wx+wx*7/100
+	document.getElementById('nn').value=wxx.toFixed(4);
 }	
 function verif5() {
-	a=Number(document.getElementById('a').value);
-	b=Number(document.getElementById('b').value);
-	c=Number(document.getElementById('c').value);
-	d=Number(document.getElementById('d').value);
-	e=Number(document.getElementById('e').value);
-	f=Number(document.getElementById('f').value);
-	g=Number(document.getElementById('g').value);
-	h=Number(document.getElementById('h').value);
-	i=Number(document.getElementById('i').value);
-	j=Number(document.getElementById('j').value);
-	if (i>10) {
-		i=i-10
-		x=a*4
-	    x1=f*4
-	    x2=b+c+d+e+g+h+i+j
-	    z=x+x1+x2
-	    zzz=z/15
-	    ss=zzz.toFixed(2);
+	math=Number(document.getElementById('math').value);
+	svt=Number(document.getElementById('svt').value);
+	fran=Number(document.getElementById('fran').value);
+	phil=Number(document.getElementById('phil').value);
+	info=Number(document.getElementById('info').value);
+	phy=Number(document.getElementById('phy').value);
+	arab=Number(document.getElementById('arab').value);
+	ang=Number(document.getElementById('ang').value);
+	opt=Number(document.getElementById('opt').value);
+	sport=Number(document.getElementById('sport').value);
+	if (document.getElementById('mycheck').checked==true) {
+	    if (opt>10) {
+		    opt=opt-10
+		    x=math*4
+	        x1=phy*4
+	        x2=svt+fran+phil+info+arab+ang+opt
+	        z=x+x1+x2
+	        zzz=z/14
+	        ss=zzz.toFixed(2);
 
-	}
-	else{
-		x=a*4
-	    x1=f*4
-	    x2=b+c+d+e+g+h+j
-	    z=x+x1+x2
-	    zzz=z/15
-	    ss=zzz.toFixed(2);
-	}
+	    }
+	    else{
+		    x=math*4
+	        x1=phy*4
+	        x2=svt+fran+phil+info+arab+ang+opt
+	        z=x+x1+x2
+	        zzz=z/14
+	        ss=zzz.toFixed(2);
+	    }
 	
 	document.getElementById('zz').value=ss;
 	x6=ss*4
-	x7=a*2
-	x8=f*1.5
-	x9=b*0.5
-	x10=c
-	x11=h
+	x7=math*2
+	x8=phy*1.5
+	x9=svt*0.5
+	x10=fran
+	x11=ang
 	wx=x6+x7+x8+x9+x10+x11
-	document.getElementById('n').value=wx.toFixed(2);
+	document.getElementById('n').value=wx.toFixed(4);
 	wxx=wx+wx*7/100
-	document.getElementById('nn').value=wxx.toFixed(2);
+	document.getElementById('nn').value=wxx.toFixed(4);
+    }
+    else{
+    	if (opt>10) {
+		    opt=opt-10
+		    x=math*4
+	        x1=phy*4
+	        x2=svt+fran+phil+info+arab+ang+opt+sport
+	        z=x+x1+x2
+	        zzz=z/15
+	        ss=zzz.toFixed(2);
+
+	    }
+	    else{
+		    x=math*4
+	        x1=phy*4
+	        x2=svt+fran+phil+info+arab+ang+opt+sport
+	        z=x+x1+x2
+	        zzz=z/15
+	        ss=zzz.toFixed(2);
+	    }
+    }
+    document.getElementById('zz').value=ss;
+	x6=ss*4
+	x7=math*2
+	x8=phy*1.5
+	x9=svt*0.5
+	x10=fran
+	x11=ang
+	wx=x6+x7+x8+x9+x10+x11
+	document.getElementById('n').value=wx.toFixed(4);
+	wxx=wx+wx*7/100
+	document.getElementById('nn').value=wxx.toFixed(4);
 
 }	
-
-
-
-
-
-
-
-
-
-
